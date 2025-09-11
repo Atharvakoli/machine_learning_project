@@ -5,7 +5,6 @@ __pycache__/
 
 # C extensions
 *.so
-first_ml_venv
 
 # Distribution / packaging
 .Python
@@ -136,6 +135,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+first_ml_venv
+.artifacts
 .env
 .envrc
 .venv
