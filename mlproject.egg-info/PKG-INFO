@@ -1,4 +1,4 @@
-Metadata-Version: 2.4
+Metadata-Version: 2.1
 Name: mlproject
 Version: 0.0.1
 Author: Atharva
@@ -10,6 +10,4 @@ Requires-Dist: matplotlib
 Requires-Dist: scikit-learn
 Requires-Dist: catboost
 Requires-Dist: dill
-Dynamic: author
-Dynamic: author-email
-Dynamic: requires-dist
+Requires-Dist: Flask
