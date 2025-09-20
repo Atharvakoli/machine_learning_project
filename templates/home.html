@@ -1,4 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Exam Performance Indicator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <div class="login">
        <h1>Student Exam Performance Indicator</h1>
@@ -41,27 +48,27 @@
             </select>
         </div>
         <div class="mb-3">
-            <label class="form-label">Parential Level of Education</label>
+            <label class="form-label">Parental Level of Education</label>
             <select class="form-control" name="parential_level_of_education"
                 placeholder="Enter you Parent Education" required>
                 <option class="placeholder" selected disabled value="">Select Parent Education</option>
                 <option value="associate's degree">
-                    associate's degree
+                    Associate's Degree
                 </option>
                 <option value="bachelor's degree">
-                    bachelor's degree
+                    Bachelor's Degree
                 </option>
                 <option value="high school">
-                    high school
+                    High School
                 </option>
                 <option value="master's degree">
-                    master's degree
+                    Master's Degree
                 </option>
                 <option value="some college">
-                    some college
+                    Some College
                 </option>
                 <option value="some high school">
-                    some high school
+                    Some High School
                 </option>
             </select>
         </div>
@@ -70,18 +77,18 @@
             <select class="form-control" name="lunch" placeholder="Enter you Lunch" required>
                 <option class="placeholder" selected disabled value="">Select Lunch Type</option>
                 <option value="free/reduced">
-                    free/reduced
+                    Free/Reduced
                 </option>
                 <option value="standard">
-                    standard
+                    Standard
                 </option>
             </select>
         </div>
         <div class="mb-3">
-            <label class="form-label">Test preparation Course</label>
+            <label class="form-label">Test Preparation Course</label>
             <select class="form-control" name="test_preparation_course" placeholder="Enter you Course"
                 required>
-                <option class="placeholder" selected disabled value="">Select Test_course</option>
+                <option class="placeholder" selected disabled value="">Select Test Course</option>
                 <option value="none">
                     None
                 </option>
@@ -91,21 +98,21 @@
             </select>
         </div>
         <div class="mb-3">
-            <label class="form-label">Writing Score out of 100</label>
+            <label class="form-label">Reading Score out of 100</label>
             <input class="form-control" type="number" name="reading_score"
                 placeholder="Enter your Reading score" min='0' max='100' />
         </div>
         <div class="mb-3">
-            <label class="form-label">Reading Score out of 100</label>
+            <label class="form-label">Writing Score out of 100</label>
             <input class="form-control" type="number" name="writing_score"
-                placeholder="Enter your Reading Score" min='0' max='100' />
+                placeholder="Enter your Writing Score" min='0' max='100' />
         </div>
         <div class="mb-3">
-            <input class="btn btn-primary" type="submit" value="Predict your Maths Score" required />
+            <input class="btn btn-primary" type="submit" value="Predict your Math Score" required />
         </div>
     </form>
     <h2>
-       THE  prediction is {{results}}
+       The prediction is {{results}}
     </h2>
-   <body>
+</body>
 </html>
