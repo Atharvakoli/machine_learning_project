@@ -1,9 +1,8 @@
 pandas
 numpy
-seaborn
-matplotlib
 scikit-learn
 catboost
 dill
 Flask
+scikit-learn==1.6.1
 # -e .
